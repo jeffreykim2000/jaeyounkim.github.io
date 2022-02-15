@@ -1,0 +1,169 @@
+.fontfamily {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  font-size: 23px;
+  color: black;
+}
+
+#menu a:hover {
+  color: blue;
+}
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+
+#maintitle {
+  text-align: center;
+  font-size: 45px;
+  margin: 0;
+  padding: 0;
+}
+#about {
+  text-align: center;
+  position: relative;
+  margin-right: 50px;
+  margin-left: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  margin-top: 10;
+  margin-bottom: 0;
+}
+
+#buttonforabout {
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 43%;
+  margin-right: 50%;
+}
+
+#buttonforabout:hover {
+  background-color: orangered;
+}
+
+.description {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+#aboutme {
+  font-size: 20px;
+  margin-right: 10%;
+  margin-left: 35%;
+  top: 0px;
+  line-height: 35px;
+}
+
+#mailid:hover {
+  color: blue;
+}
+
+#mailid {
+  text-decoration: none;
+  color: black;
+}
+.flexhorizontal {
+  display: flex;
+}
+
+.flexhorizontal > div {
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 30px;
+}
+.flexvertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexvertical > div {
+  width: 1170px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.imagemargin {
+  margin: 15px 20px;
+}
+
+.inlineblock {
+  display: inline-block;
+  margin: 20px;
+  padding: 0px;
+}
+
+.floatleft {
+  float: left;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#menu li {
+  float: right;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* .iconadjust {
+  transform: skewX(25deg);
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+} */
+
+#footer {
+  margin-right: 40%;
+  margin-left: 42%;
+}
+
+.bigger:hover {
+  transform: scale(1.2);
+}
+
+.link:hover {
+  color: orangered;
+}
+
+.padding {
+  padding: 30px;
+}
